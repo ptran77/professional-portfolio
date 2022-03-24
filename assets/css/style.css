@@ -74,3 +74,36 @@ header nav ul li a {
   left: 39%;
   border: 1px;
 }
+/* Hero Style End */
+
+/* Main Style Start */
+main {
+  flex-direction: column;
+  padding: 20px 35px 0px 35px;
+}
+
+main section {
+  display: flex;
+  padding: 20px 50px 0px 50px;
+}
+
+main section h2 {
+  flex: 1;
+  color: var(--tertiary-color);
+  font-size: 35px;
+  border-right: 4px solid var(--tertiary-color);
+  text-align: right;
+  padding: 10px;
+}
+
+main section div {
+  flex: 9;
+  padding: 10px;
+}
+/* Main Style End */
+
+/* About Me Style Start */
+.developer-info {
+  font-size: 20px;
+  color: var(--tertiary-color);
+}
