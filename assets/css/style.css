@@ -107,3 +107,22 @@ main section div {
   font-size: 20px;
   color: var(--tertiary-color);
 }
+/* About Me Style End */
+
+/* Contact Me Style Start */
+.contact-info ul {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 25%;
+}
+.contact-info ul li {
+  list-style: none;
+}
+
+.contact-info ul li a {
+  text-decoration: none;
+  border-bottom: 4px solid var(--tertiary-color);
+  color: black;
+  font-size: 26px;
+}
