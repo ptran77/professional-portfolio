@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #31343d;
+  --secondary-color: #95cacd;
+  --tertiary-color: #445672;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Style Start */
+header {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 0px 15px 0;
+}
+
+header h1 {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 36px;
+  padding: 10px 5px 10px 40px;
+}
+
+header nav {
+  margin: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li a {
+  color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 26px;
+  text-decoration: none;
+  border-bottom: 4px solid #95cacd;
+  margin: 10px;
+}
