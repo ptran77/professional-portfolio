@@ -69,7 +69,7 @@ header nav ul li a {
   padding: 10px;
   position: relative;
   margin: auto;
-  width: 200px;
+  width: fit-content;
   top: 55%;
   left: 39%;
   border: 1px;
@@ -96,7 +96,9 @@ main section h2 {
   padding: 10px;
 }
 
-main section div {
+.developer-info,
+.applications,
+.contact-info {
   flex: 9;
   padding: 10px;
 }
@@ -108,6 +110,73 @@ main section div {
   color: var(--tertiary-color);
 }
 /* About Me Style End */
+
+/* Work Style Start */
+.applications {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-app {
+  background-image: url("../images/Project1.jpg");
+  margin: 10px;
+  height: 400px;
+}
+
+.other-app {
+  display: flex;
+}
+
+.app {
+  width: 50%;
+  margin: 10px;
+  height: 150px;
+}
+
+.main-app,
+.app {
+  border: 4px solid var(--secondary-color);
+}
+
+#project2 {
+  background-image: url("../images/Project2.jpg");
+}
+
+#project3 {
+  background-image: url("../images/Project3.jpg");
+}
+
+#project4 {
+  background-image: url("../images/Project4.jpg");
+}
+
+#project5 {
+  background-image: url("../images/Project5.jpg");
+}
+
+.app-info {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  width: fit-content;
+  position: relative;
+  top: 40%;
+}
+
+.app-info h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.app-info p {
+  font-size: 18px;
+  padding: 0 10px 10px 10px;
+}
+
+.main-app .app-info {
+  top: 70%;
+}
+/* Work Style End */
 
 /* Contact Me Style Start */
 .contact-info ul {
@@ -126,3 +195,4 @@ main section div {
   color: black;
   font-size: 26px;
 }
+/* Contact Me Style End */
