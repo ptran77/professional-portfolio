@@ -50,7 +50,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-size: 26px;
   text-decoration: none;
-  border-bottom: var(--borderLine) #95cacd;
+  border-bottom: var(--borderLine) var(--secondary-color);
   margin: 10px;
 }
 /* Header Style End */
@@ -124,27 +124,43 @@ main section h2 {
   margin: 10px;
   height: var(--appHeightSize);
   width: 47%;
+  background-size: cover;
+  text-decoration: none;
 }
 
 #project1 {
-  background-image: url("../images/Project1.jpg");
   width: 95.5%;
-  height: 300px;
+  height: 450px;
 }
 
-#project2 {
-  background-image: url("../images/Project2.jpg");
+.projectImage {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  filter: blur(5px) opacity(70%);
 }
 
-#project3 {
-  background-image: url("../images/Project3.jpg");
+.projectImage:hover {
+  filter: none;
+}
+#project1 .projectImage {
+  background-image: url("../images/run-buddy.png");
 }
 
-#project4 {
+#project2 .projectImage {
+  background-image: url("../images/robot-gladiators.png");
+}
+
+#project3 .projectImage {
+  background-image: url("../images/code-refractor.png");
+}
+
+#project4 .projectImage {
   background-image: url("../images/Project4.jpg");
 }
 
-#project5 {
+#project5 .projectImage {
   background-image: url("../images/Project5.jpg");
 }
 
@@ -153,7 +169,7 @@ main section h2 {
   color: var(--tertiary-color);
   width: fit-content;
   position: relative;
-  top: 40%;
+  top: -60%;
 }
 
 .app-info h3 {
@@ -167,7 +183,7 @@ main section h2 {
 }
 
 #project1 .app-info {
-  top: 70%;
+  top: -25%;
 }
 /* Work Style End */
 
