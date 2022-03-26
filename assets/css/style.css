@@ -2,6 +2,8 @@
   --primary-color: #31343d;
   --secondary-color: #95cacd;
   --tertiary-color: #445672;
+  --appHeightSize: 150px;
+  --borderLine: 4px solid;
 }
 
 * {
@@ -48,7 +50,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-size: 26px;
   text-decoration: none;
-  border-bottom: 4px solid #95cacd;
+  border-bottom: var(--borderLine) #95cacd;
   margin: 10px;
 }
 /* Header Style End */
@@ -91,7 +93,7 @@ main section h2 {
   flex: 1;
   color: var(--tertiary-color);
   font-size: 35px;
-  border-right: 4px solid var(--tertiary-color);
+  border-right: var(--borderLine) var(--tertiary-color);
   text-align: right;
   padding: 10px;
 }
@@ -114,29 +116,20 @@ main section h2 {
 /* Work Style Start */
 .applications {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 
-.main-app {
+.app {
+  border: var(--borderLine) var(--secondary-color);
+  margin: 10px;
+  height: var(--appHeightSize);
+  width: 47%;
+}
+
+#project1 {
   background-image: url("../images/Project1.jpg");
-  margin: 10px;
-  height: 400px;
-}
-
-.other-app {
-  display: flex;
-}
-
-.app {
-  width: 50%;
-  margin: 10px;
-  height: 150px;
-}
-
-.main-app,
-.app {
-  border: 4px solid var(--secondary-color);
+  width: 95.5%;
+  height: 300px;
 }
 
 #project2 {
@@ -173,7 +166,7 @@ main section h2 {
   padding: 0 10px 10px 10px;
 }
 
-.main-app .app-info {
+#project1 .app-info {
   top: 70%;
 }
 /* Work Style End */
@@ -191,7 +184,7 @@ main section h2 {
 
 .contact-info ul li a {
   text-decoration: none;
-  border-bottom: 4px solid var(--tertiary-color);
+  border-bottom: var(--borderLine) var(--tertiary-color);
   color: black;
   font-size: 26px;
 }
