@@ -214,3 +214,118 @@ main section h2 {
   font-size: 26px;
 }
 /* Contact Me Style End */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  /* 980px Header Style Start */
+  header {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+  /* 980px Header Style End */
+
+  /* 980px Hero Style Start */
+  .subtitle {
+    left: 0%;
+  }
+  /* 980px Hero Style End */
+
+  /* 980px Main Style Start */
+  main {
+    padding-top: 5px;
+  }
+
+  main section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main section h2 {
+    border-right: none;
+    border-bottom: var(--borderLine) var(--tertiary-color);
+    width: 100%;
+    text-align: center;
+  }
+  /* 980px Main Style End */
+
+  /* 980px About Me Style Begin */
+  .developer-info {
+    font-size: 18px;
+  }
+  /* 980px About Me Style End */
+
+  /* 980px Work Style Start */
+  .app,
+  #project1 {
+    width: 100%;
+  }
+
+  #project1 {
+    height: var(--appHeightSize);
+  }
+
+  #project1 .app-info {
+    top: -60%;
+  }
+  /* 980px Work Style End */
+
+  /* 980px Contact Me Style Begin */
+  .contact-info ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info ul li {
+    padding: 10px;
+  }
+  /* 980px Contact Me Style End */
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .developer-info {
+    font-size: 16px;
+  }
+
+  .app-info h3 {
+    font-size: 16px;
+  }
+
+  .app-info p {
+    font-size: 14px;
+  }
+
+  .contact-info ul li a {
+    font-size: 20px;
+  }
+}
