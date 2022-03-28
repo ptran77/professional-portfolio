@@ -52,7 +52,15 @@ header nav ul li a {
   text-decoration: none;
   border-bottom: var(--borderLine) var(--secondary-color);
   margin: 10px;
+  transition: background-color 1s, color 0.5s;
 }
+
+header nav ul li a:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition-timing-function: ease;
+}
+
 /* Header Style End */
 
 /* Hero Style Start */
@@ -139,6 +147,7 @@ main section h2 {
   width: 100%;
   background-color: var(--secondary-color);
   filter: blur(5px) opacity(70%);
+  transition: filter 2s;
 }
 
 .projectImage:hover {
