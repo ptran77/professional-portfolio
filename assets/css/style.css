@@ -154,23 +154,23 @@ main section h2 {
   filter: none;
 }
 #project1 .projectImage {
-  background-image: url("../images/run-buddy.png");
-}
-
-#project2 .projectImage {
-  background-image: url("../images/robot-gladiators.png");
-}
-
-#project3 .projectImage {
   background-image: url("../images/code-refractor.png");
 }
 
+#project2 .projectImage {
+  background-image: url("../images/password-generator.png");
+}
+
+#project3 .projectImage {
+  background-image: url("../images/run-buddy.png");
+}
+
 #project4 .projectImage {
-  background-image: url("../images/taskinator.png");
+  background-image: url("../images/robot-gladiators.png");
 }
 
 #project5 .projectImage {
-  background-image: url("../images/Project5.jpg");
+  background-image: url("../images/taskinator.png");
 }
 
 .app-info {
