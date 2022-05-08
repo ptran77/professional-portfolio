@@ -154,23 +154,23 @@ main section h2 {
   filter: none;
 }
 #project1 .projectImage {
-  background-image: url("../images/code-refractor.png");
+  background-image: url("../images/Anime4You.gif");
 }
 
 #project2 .projectImage {
-  background-image: url("../images/password-generator.png");
+  background-image: url("../images/weather-dashboard.gif");
 }
 
 #project3 .projectImage {
-  background-image: url("../images/run-buddy.png");
+  background-image: url("../images/work-day-scheduler.gif");
 }
 
 #project4 .projectImage {
-  background-image: url("../images/robot-gladiators.png");
+  background-image: url("../images/code-quiz.gif");
 }
 
 #project5 .projectImage {
-  background-image: url("../images/taskinator.png");
+  background-image: url("../images/password-generator.png");
 }
 
 .app-info {
